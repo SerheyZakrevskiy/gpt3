@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .gpt3__navbar-sign button,
-.gpt3__navbar-menu-container button {
+.gpt3__navbar-menu_container button {
   padding: 1rem 2rem;
   color: #fff;
   font-family: var(--font-family);
@@ -70,7 +70,7 @@
   cursor: pointer;
 }
 
-.gpt3__navbar-menu-container {
+.gpt3__navbar-menu_container {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -88,7 +88,7 @@
   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
 
-.gpt3__navbar-menu-container p {
+.gpt3__navbar-menu_container p {
   margin: 1rem 0;
 }
 
@@ -120,7 +120,7 @@
     display: none;
   }
 
-  .gpt3__navbar-menu-container {
+  .gpt3__navbar-menu_container {
     top: 20px;
   }
 
